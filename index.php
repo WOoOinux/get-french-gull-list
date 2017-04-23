@@ -1,11 +1,11 @@
 <!DOCTYPE>
     <html>
         <head>
-            <title>SimpleHTMLDOM</title>
+            <title>Récupération de la liste des GULL Francophones</title>
             <meta charset="UTF-8" />
         </head>
         <body>
-            <h1>Test de SimpleHTMLDOM</h1>
+            <h1>Récupération de la liste des GULL Francophones</h1>
             <?php
                 // On génère une adresse email à partir du nom de domaine
                 function getEmail($url) {
