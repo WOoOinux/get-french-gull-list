@@ -46,9 +46,7 @@ for($i=1; $i<=12; $i++) {
     }
 }
 
-echo "<pre>";
 print_r($list);
-echo "</pre>";
 
 // On crée le fichier CSV et le délimiteur
 $file = "liste_contact_gull.csv";
@@ -57,5 +55,5 @@ $fileOpen = fopen($file, "w+");
 foreach($list as $listItem){
     fputcsv($fileOpen, $listItem, $separator);
 }
-fclose($file);
+fclose($fileOpen);
 ?>
